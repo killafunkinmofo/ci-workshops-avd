@@ -19,6 +19,11 @@ avd_data_validation_mode: error
 cv_collection: v3
 execute_tasks: true
 
+# arista.avd.cv_deploy role parameters
+cv_token: # Fill in here with a CloudVision Service Account Token
+cv_server: cvp
+cv_verify_certs: false
+
 # Local Users
 local_users:
   - name: arista

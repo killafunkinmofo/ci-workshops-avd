@@ -5,7 +5,7 @@ tenants:
       - name: default
         svis:
           - id: 10
-            name: 'Tenn'
+            name: 'Ten'
             tags: [ "Web" ]
             enabled: true
             ip_virtual_router_addresses:
